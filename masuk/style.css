@@ -1,0 +1,266 @@
+body {
+  background-color: #FFFF;
+  font-family: Open-sans,sans-serif;
+  margin: auto;
+  height: 100%;
+}
+
+.header {
+  width : 90%;
+  height: 51px;
+  background : linear-gradient(to right, #15677b 0%, #179fb7 49%, #14a0b7 100%);
+  position: fixed;
+  margin-top: -80px;
+  z-index: 2;
+
+}
+
+.header2 {
+  width : 90%;
+  height: 51px;
+  background : linear-gradient(to right, #15677b 0%, #179fb7 49%, #14a0b7 100%);
+  margin-top: -20px;
+  position: fixed;
+  z-index: 2;
+}
+
+img {
+  margin-left: 87%;
+}
+
+
+ .bayaro {
+   padding: 1em;
+   margin: 5em auto;
+   background: #FFFF;
+   margin-top: 40px
+   width:100%;
+   height: 100%;
+   z-index: 1;
+   position: relative;
+ }
+
+.bayar {
+  margin-left: 250px;
+  width: 25em;
+  border-radius: 3px;
+  float: left;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.bayar2 {
+  margin-left: 450px;
+  height: 100%;
+  width: 17em;
+  border-radius: 3px;
+  margin-top: -240px;
+}
+ 
+label {
+  font-size: 11pt;
+  color: #555;
+}
+ 
+
+input[type="text"],
+select {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+
+.table {
+  border-collapse:collapse;
+  
+}
+
+  .table, .table th, .table td {
+    padding:11px 12px;
+    font-family: 'Calibri';
+    font-size: 15px;
+}
+
+  
+  .table .th {
+    font-size:16px;
+    font-weight:bold;
+    color:#000000;
+    text-shadow:1px 1px 2px #DDD;
+  }
+    
+.tr {
+  color: white;
+}
+
+.tabel {
+  
+  margin-top: 600px;
+  margin-left: 200px;
+}
+
+.tabel2 {
+  margin-top: 600px;
+  margin-left: 100px; 
+}
+
+.tabel3 {
+   margin-top: 500px;
+  margin-left: 200px; 
+}
+
+.tabel4 {
+  margin-top: 600px;
+  margin-left: 100px; 
+}
+
+.table1 {
+  border-collapse:collapse;
+  box-shadow:0px 0px 3px #CCC;
+  background: #0099CC;
+}
+
+
+
+.table1, .table1 th, .table1 td {
+    color: white;
+    font-family: 'Calibri';
+    font-size: 15px;
+    padding:17px 10px;
+  }
+
+.tombol {
+  background:  #00C851;
+  border-radius: 5px;
+  color: white;    
+  padding: 8px 10px;
+  margin: 20px 0px;
+  width: 100%;
+  height: 30px;
+  border: 0;
+  font-size: 12px;
+}
+
+.tombol:hover {
+  background: #007E33;
+}
+
+
+.footer {
+  background: linear-gradient(to right, #14a2b8 0%, #14a2b8 44%, #155d75 100%);
+  width: 100%;
+  height: 40px;
+  margin-top: 120px;
+  color: #FFF;
+  padding-top: 30px; 
+  float: left; 
+  font-size: 12px;
+  position: fixed;
+}
+
+
+.menu {
+  margin-top: 80px;
+  position: fixed;
+  right: 15px;
+}
+
+.menu2 {
+  margin-top: 30px;
+  position: fixed;
+  right: 15px;
+}
+
+.pojok {
+  background: #14a2b8;
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin-right: -16px;
+  margin-top: 100px;  
+  z-index: 2;
+
+}
+
+.home {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 7px;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.pojok2 {
+  background: #14a2b8;
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin-right: -60px;
+  margin-top: 165px;  
+  z-index: 2;
+
+
+}
+
+.print {
+  margin-right: 200px;
+  margin-top: 40px;
+}
+
+a.pb:hover{
+  opacity:0.8; 
+}
+
+.out {
+  float: right;
+  margin-top: 10px;
+  padding-left: -80px;
+  z-index: 1;
+
+}
+
+.footer1 {
+  background: linear-gradient(to right, #14a2b8 0%, #14a2b8 44%, #155d75 100%);
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+  color: #FFF;
+  padding-top: 30px; 
+  margin-left: 0px;
+  float: left; 
+  font-size: 12px; 
+  position: absolute;
+}
+
+.footer2 {
+  background: linear-gradient(to right, #14a2b8 0%, #14a2b8 44%, #155d75 100%);
+  width: 100%;
+  height: 40px;
+  margin-top: 100px;
+  color: #FFF;
+  padding-top: 30px; 
+  margin-left: -17px;
+  float: left; 
+  font-size: 12px; 
+  position: absolute;
+}
+
+  
+
+.footer4 {
+  background: linear-gradient(to right, #14a2b8 0%, #14a2b8 44%, #155d75 100%);
+  width: 100%;
+  height: 40px;
+  margin-left: -17px;
+  margin-top: 30px;
+  color: #FFF;
+  padding-top: 30px; 
+  float: left; 
+  font-size: 12px; 
+  position: absolute;
+}
